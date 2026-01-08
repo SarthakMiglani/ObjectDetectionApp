@@ -1,4 +1,4 @@
-package com.example.objectdetectionapp.ui
+package com.readymon.objectdetectionapp.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -11,6 +11,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.objectdetectionapp.ui.HistoryItemComposable
 import com.readymon.objectdetectionapp.viewmodel.DetectionViewModel
 
 @Composable
